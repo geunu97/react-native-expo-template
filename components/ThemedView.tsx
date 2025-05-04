@@ -7,6 +7,7 @@ export type ThemedViewProps = ViewProps & {
   darkColor?: string;
 };
 
+/* 다크모드 지원(backgroundColor) */
 export function ThemedView({ style, lightColor, darkColor, ...otherProps }: ThemedViewProps) {
   const backgroundColor = useThemeColor({ light: lightColor, dark: darkColor }, 'background');
 

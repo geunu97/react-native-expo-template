@@ -8,6 +8,7 @@ export type ThemedTextProps = TextProps & {
   type?: 'default' | 'title' | 'defaultSemiBold' | 'subtitle' | 'link';
 };
 
+/* 다크모드 지원(color) */
 export function ThemedText({
   style,
   lightColor,
