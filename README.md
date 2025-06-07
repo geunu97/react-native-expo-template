@@ -6,7 +6,6 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 1. node version 20.11.0
 
-
 ## Get started
 
 1. Install dependencies
@@ -30,6 +29,11 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
+## Occur Error (Android)
+
+1. Java 설치 및 환경변수 설정
+
+
 ## Get a fresh project
 
 When you're ready, run:
@@ -39,6 +43,9 @@ npm run reset-project
 ```
 
 This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+
+
+
 
 ## Learn more
 
